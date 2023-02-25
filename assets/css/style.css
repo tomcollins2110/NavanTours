@@ -1,5 +1,12 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Phudu;
     background-image: url("../images/bridge.jpeg");
     background-size: cover;
     background-position: center;
@@ -35,9 +42,7 @@ header {
     font-size: 32px;
     font-weight: bold;
     margin: 15px;
-    border: 10px solid rgb(0, 0, 139, 0.7);
-    border-radius: 25px;
-    padding: 10px;
+    padding-top: 15px;
 }
 
 @media (max-width: 767px) {
@@ -52,8 +57,7 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-  
-    padding: 10px;
+    padding: 15px;
 }
   
 .menu-header {
@@ -79,6 +83,7 @@ header {
 p {
     color: white;
     text-align: center;
+    word-spacing: 10px;
     font-size: 1.5em;
 }
 
@@ -99,10 +104,11 @@ h2 {
   }
 
 .container {
-    background-color: rgba(20, 39, 219, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     width: 75%;
-    margin: 0 auto;
+    margin: 15px auto;
+    border-radius: 10%;
 }
 
   @media (max-width: 767px) {
@@ -130,3 +136,8 @@ footer {
       bottom: auto;
     }
   }
+
+a {
+    color: gold; 
+    text-decoration: none;
+}
